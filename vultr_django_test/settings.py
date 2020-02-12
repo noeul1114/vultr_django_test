@@ -26,7 +26,7 @@ SECRET_KEY = '8#%po-zjnph17-g)w#!m!1aq%_ggeh!x#89870q1t=p6koj*7p'
 DEBUG = True
 
 if DEBUG:
-    ALLOWED_HOSTS = [*]
+    ALLOWED_HOSTS = ["*"]
 else:
     ALLOWED_HOSTS = []
 
