@@ -18,6 +18,10 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 
+print(settings.STATIC_URL)
+print(settings.STATIC_ROOT)
+print(settings.BASE_DIR)
+
 urlpatterns = [
     path('', include('testing.url')),
     path('admin/', admin.site.urls),
