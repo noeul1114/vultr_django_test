@@ -4,6 +4,7 @@ RUN apt-get update
 WORKDIR /home/
 
 RUN git clone --depth 1 https://github.com/noeul1114/vultr_django_test.git
+RUN git pull
 
 WORKDIR /home/vultr_django_test
 
