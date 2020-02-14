@@ -7,4 +7,4 @@ client = docker.from_env()
 
 
 def index(request):
-    return HttpResponse("Django nginx Test Accomplished!! + secret = "+client.secrets.list())
+    return HttpResponse("Django nginx Test Accomplished!! + secret = "+str(client.secrets.list()[0]))
