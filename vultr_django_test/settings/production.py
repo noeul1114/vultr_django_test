@@ -30,6 +30,6 @@ DATABASES = {
     }
 }
 
-STATIC_URL = 'http://149.28.29.166/static/'
+STATIC_URL = '/static/'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
