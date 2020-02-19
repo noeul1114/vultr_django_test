@@ -4,4 +4,4 @@ from django.shortcuts import render, HttpResponse
 
 
 def index(request):
-    return HttpResponse("Django nginx Test Accomplished!! + secret = ")
+    return HttpResponse("Django nginx Test Accomplished!! with Docker swarm!! ")
